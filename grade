@@ -38,3 +38,5 @@ printf "\n\nGrade: $total\n\n"
 if [ -z "$DEBUG" ]; then
 	make -f Makefile --silent clean
 fi
+
+exit(total)

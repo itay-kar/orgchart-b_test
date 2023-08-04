@@ -39,4 +39,4 @@ if [ -z "$DEBUG" ]; then
 	make -f Makefile --silent clean
 fi
 
-exit(total)
+exit $total
